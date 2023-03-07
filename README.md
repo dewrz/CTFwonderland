@@ -56,13 +56,13 @@ I ran cat on the teaParty file and received back some code/obfuscated, so I then
 <a href="https://imgur.com/rOrMC2s"><img src="https://i.imgur.com/rOrMC2s.jpg" title="source: imgur.com" /></a>
 <br>
 <br>
-We will now exploit the PATH of the date function and then execute the teaParty script to escalate our privilege to root.
+We will now exploit the PATH of the date function and then execute the teaParty script to escalate our privilege.
 <br>
 <br>
 <a href="https://imgur.com/s3rf7Bf"><img src="https://i.imgur.com/s3rf7Bf.jpg" title="source: imgur.com" /></a>
 <br>
 <br>
-I changed the directory to hatter and listed the files and there is a file there called password.txt. This is hatter’s password, so I ran sudo –l, checked for shared object hijacking or any cronjobs that could be exploited, but with no luck. There is a perl capability that can be exploited though.
+I changed the directory to hatter and listed the files and there was a file there called password.txt. This is hatter’s password, so I ran sudo –l, checked for shared object hijacking or any cronjobs that could be exploited, but I had no luck. There was a perl capability that can be exploited though.
 <br>
 <br>
 <a href="https://imgur.com/aCEhSwz"><img src="https://i.imgur.com/aCEhSwz.jpg" title="source: imgur.com" /></a>
